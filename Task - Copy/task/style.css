@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+
+}
+#info .container .row .col-9 .card .text-box{
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding: 30px;
+    
+}
+#info .container .row .col-9 .text-box h3,span{
+    color: #5E72E4;
+}
+#info .container .row .col-9 .text-box p{
+    line-height: 20px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    color: #525F7F;
+    
+}
+#info .container .row .col-3 .text-box p{
+    color: #9E9E9E;
+}
+#info .container .row .col-9 .card:hover{
+    transform: translateY(-15px);
+    
+}
+#info .container .row .col-9 .card{
+    transition-duration: 0.2s;
+    
+}
+button{
+    padding: 10px 15px;
+    color: white;
+    background-color: #5E72E4;
+    border: none;
+    transition-duration: 0.2s;
+    border-radius: 3px;
+}
+button:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+footer{
+    background-color: #5E72E4;
+    margin-top: 80px;
+}
+#contact{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.breadcrump-box{
+    line-height: 30px;
+    color: white;
+}
+#contact .container .row .col-4 .help .logo-box img{
+    padding-bottom: 25px;
+}
+#contact .container .row .col-4 .help .text-box p{
+    padding-bottom: 25px;
+    color: white;
+}
+#contact .container .row .col-4 .help .text-box > p{
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+#contact .container .row .col-4 .help .breadcrump-box li{
+    position: relative;
+    list-style: none;
+    transition-duration: 0.3s;
+}
+
+#contact .container .row .col-4 .help .breadcrump-box li::before{
+    color: #ccc;
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 16px;
+    left: -17px;
+    padding: 0 7px 0 0;
+    position: absolute;
+    top: -2px;
+
+}
+#contact .container .row .col-4 .help .breadcrump-box li:hover{
+    transform: translateX(5px);
+    cursor: pointer;
+    color: #CCCCCC;
+}
+#contact .container .row .col-4 .help .text-box .contact-info p{
+    line-height: 1px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #CCCCCC;
+}
+.icon-box i{
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #66676B;
+    transition-duration: 0.3s;
+}
+.icon-box i:hover{
+    transform: translateY(-3px);
+}
+.rights{
+    text-align: center;
+    padding: 50px;
+    border-top: 1px solid #6D7FE6;
+    color: white;
+    font-size: 15px;
+    
+}
+.mini-card{
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+}
+.mini-card:nth-child(5){
+    border: none;
+}
+.mini-icons i:nth-child(1){
+   background-color: #1DA1F2;
+   padding: 10px;
+   color: white;
+   border-radius: 3px;
+   transition-duration: 0.3s;
+}
+.mini-icons i:nth-child(2){
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #3B5999;
+    transition-duration: 0.3s;
+
+}
+.mini-icons i:nth-child(3){
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #EA4C89;
+    transition-duration: 0.3s;
+
+}
+.mini-icons i:nth-child(4){
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #222222;
+    transition-duration: 0.3s;
+}
+.mini-icons i:hover{
+    transform: translateY(-3px);
+}
+.mini-icons i{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
